@@ -4,7 +4,7 @@
 }
 
 #poster {
-    background-image: url(../moviebox/movbox-images/Poster.jpg);
+    background-image: url(../movbox-images/Poster.jpg);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -541,7 +541,7 @@ width: 100%;
 }
 
 .movmov-p {
-    background-image: url(../moviebox/movbox-images/Rectangle\ 37.png);
+    background-image: url(../movbox-images/Rectangle\ 37.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
