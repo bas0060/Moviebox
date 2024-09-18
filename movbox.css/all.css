@@ -1,0 +1,570 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#poster {
+    background-image: url(../moviebox/movbox-images/Poster.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 65px;
+}
+
+.name-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name-icon p {
+    font-family: serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50% );
+}
+
+.search input {
+   padding: 10px 20px ;
+   background: transparent;
+   width: 300px;
+   border-color: white;
+   border-radius: 6px;
+   color: #fff;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-in p {
+    color: #fff;
+}
+
+.sign-in img {
+    background: brown;
+    margin-left: 10px;
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+::placeholder {
+    color: #fff;
+    font-family: serif;
+    
+}
+
+.head {
+    margin: 70px 0px 70px 70px;
+    width: 300px;
+}
+
+.head h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: sans-serif;
+    margin-bottom: 13px;
+}
+
+.imb-tom {
+    display: flex;
+    gap: 13px;
+}
+
+.tomato-main {
+    display: flex;
+    gap: 10px;
+}
+
+.tomato-main p {
+    color: #fff;
+    float: right;
+    margin-right: 125px;
+}
+
+.text {
+    width: 270px;
+}
+
+.text p {
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+
+.thrailer {
+    background-color: brown;
+    width: 65%;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.thrailer img{
+    margin: 6px 8px 0px 13px ;
+    float: left;
+    
+}
+
+.thrailer p {
+   margin-right: 5px; 
+   padding: 8px;
+   color: #fff;
+}
+
+.menu-4 {
+   float: right;
+   position: absolute;
+   right: 0;
+   bottom: 320px;
+   
+}
+
+.menu-4 img {
+   color: white;
+}
+
+.head-sm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0px;
+    width: 100%;
+}
+
+.sm a {
+    display: flex;
+    align-items: flex-start;
+    gap: 0px;
+    text-decoration: none;
+}
+
+.sm a p {
+    color: brown;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 82px;
+    
+}
+
+.wrapper p {
+   color: lightgray;
+}
+
+.wrapper h2 {
+   width: 250px;
+}
+
+.movie-links {
+    width: 25%;
+
+}
+
+.mov-cap p {
+    padding: 10px 0px 10px 0px;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 250px;
+    padding: 15px 0px 10px 0px;
+}
+
+.main-div p {
+   color: black;
+}
+
+.imob {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tomato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-movie  p {
+    padding-bottom: 30px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.foot h2 {
+    color: lightgray;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding:  10px 10px 10px 160px;
+    gap: 70px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 10px;
+}
+
+.copyright {
+    padding:  10px 10px 10px 60px;
+}
+
+/* side */
+
+.side {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    height: calc(100vh - 3px);
+    border: 1px solid gray;
+    border-radius: 0 50px 50px 0;
+}
+
+.head-2 a { 
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 15px 0px 15px 20px;
+        text-decoration: none;
+}
+    
+.head-2 p {
+        font-family: serif;
+        font-size: 22px;
+        color: #000;
+}
+
+nav ul li  div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 28.5px;
+        color: gray;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li :hover {
+    background-color: lightpink;
+    border-right: 4px solid brown;
+    color: brown;
+    cursor: pointer;
+}
+
+nav ul li div :hover {
+   border: none;
+}
+
+.quiz-player {
+    background-color: rgb(238, 226, 228);
+    padding:15px 15px 0px 15px;
+    margin:25px 40px 10px 40px;
+    border: 1px solid brown;
+    border-radius: 35px;
+}
+
+.quiz {
+    padding: 20px 15px 10px 10px;
+    font-size: 25px;
+    color: darkslategrey;
+}
+
+.player {
+    padding: 0px 15px 10px 10px;
+    color: dimgray;
+}
+    
+.sp {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sp, .log-out :hover{
+    cursor: pointer;
+}
+
+.sp p {
+    background-color: lightpink;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 35px;
+    color: brown;
+    font-size: 20px;
+}
+
+.log-out {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.log-out p {
+    padding-top: 5px;
+   font-size: 20px; 
+   font-style: 20px;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.cont-side2 {
+    padding: 30px;
+    width: 80%;
+}
+
+.side2 {
+    gap: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.rectangle,
+.rectangle img {
+width: 100%;
+}
+
+.rectangle img {
+    object-fit: cover;
+}
+
+.eclipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff5;
+    padding: 32px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eclipse:hover {
+    background-color: #fff9;
+    cursor: pointer;
+}
+
+.below-1 {
+    width: 65%;
+}
+
+.topAD {
+    display: flex;
+    gap: 10px;
+    padding: 25px 15px 0px 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-m {
+    font-size: 25px;
+}
+
+.actdra {
+    display: flex;
+    font-size: 15px;
+    gap: 15px;
+    color: brown;
+}
+
+.actdra p {
+    border: 1px solid lightgray;
+    border-radius: 250px;
+    padding: 3.5px;
+}
+
+.story {
+    padding: 18px;
+}
+
+.story p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 39px;
+    font-size: 21.5px;
+}
+
+.directors {
+    padding: 10px 0px 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.brown {
+    color: brown;
+}
+
+.rate-award {
+    display: flex;
+    gap: 10px;
+    margin-left: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    position: relative;
+}
+
+.rate {
+    background-color: brown;
+    color: #fff;
+    padding: 13px 20px 9px 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.award {
+    display: flex;
+    padding: 15px 20px 13px 20px;
+    font-size: 17px;
+}
+
+.award img {
+    position: absolute;
+    left: 92%;
+    bottom: 11.5%;
+}
+
+.below-2 {
+    width: 28.5%;
+    padding: 20px;
+}
+
+.star-no {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.number {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.gray {
+    color: gray;
+}
+
+.no-bord {
+    color: darkslategray ;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.showT {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+.showT p {
+    font-size: 20px;
+    padding: 10px 15px;
+    font-family:   Arial, sans-serif;
+}
+
+.showT img {
+    padding: 10px 0px 10px 0px;
+    font-family:   Arial, sans-serif;
+}
+
+.list-more {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(239, 207, 212);
+    border: 1px solid brown ;
+    border-radius: 15px;
+    margin: 0px 0px 15px 0px;
+}
+
+.list-more p {
+    font-size: 20px;
+    padding: 10px 15px;
+    font-family:   Arial, sans-serif;
+}
+
+.list-more img {
+    padding: 10px 0px 10px 0px;
+    font-family:   Arial, sans-serif;
+}
+
+.movmov-p {
+    background-image: url(../moviebox/movbox-images/Rectangle\ 37.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.list-best {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #0003;
+    color: white;
+    width: 99%;
+    position: absolute;
+    top: 198.5px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.list-best p {
+    padding: 8px;
+}
+
+.below {
+    display: flex;
+}
