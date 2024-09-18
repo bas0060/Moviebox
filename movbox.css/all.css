@@ -159,7 +159,6 @@
 .sm a {
     display: flex;
     align-items: flex-start;
-    gap: 0px;
     text-decoration: none;
 }
 
