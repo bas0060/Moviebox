@@ -610,19 +610,19 @@ width: 100%;
 
     .movie-links {
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .socials {
         width: 200px;
-        padding:  10px 10px 10px 45px;
+        padding:  10px 10px 10px 48px;
         gap: 70px;
     }
 
    .side {
     transform: translateX(-100%);
-    height: calc(100vh - 60px);
-    width: 45%;
+    height: calc(100vh - 1px);
+    width: 50%;
     position: fixed;
     top: 0;
     background: white;
@@ -630,7 +630,7 @@ width: 100%;
    } 
 
    .head-2 a { 
-    padding: 35px 0px 35px 20px;
+    padding: 25px 0px 25px 20px;
    }
 
    .menu-icon {
@@ -641,6 +641,15 @@ width: 100%;
    .menu-toggle:checked ~ .side {
     transform: translateX(0);
    }
+   
+   .quiz-player {
+    padding:4.5px 7px 0px 7px;
+    margin:15px 30px 0px 25px;
+   }
+
+   .quiz {
+    font-size: 20px;
+}
 
    .log-out {
     margin-top: 20px;
@@ -707,7 +716,7 @@ width: 100%;
    }
 
    .list-best {
-    margin-top: 11.5px;
+    margin-top: 0px;
     line-height: 30px;
    }
 
