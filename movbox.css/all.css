@@ -257,7 +257,7 @@
 .side {
     position: sticky;
     top: 0;
-    bottom: 0;
+    left: 0;
     width: 20%;
     height: calc(100vh - 2px);
     border: 1px solid gray;
@@ -270,6 +270,7 @@
         gap: 10px;
         padding: 15px 0px 15px 20px;
         text-decoration: none;
+        transition: 0.3s;
 }
     
 .head-2 p {
@@ -569,5 +570,146 @@ width: 100%;
 .below {
     display: flex;
 }
+
+.menu-icon {
+    font-size: 30x;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    z-index: 1001;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+}
  
-    
+@media screen and (max-width:768px){
+    #navbar {
+        flex-direction: column;
+    }
+
+    .name-icon {
+        padding-bottom: 15px;
+    }
+
+    .search {
+        padding-bottom: 15px;
+    }
+
+    .wrapper {
+        padding-left: 20px;
+        margin: 0;
+        flex-flow: wrap;
+    }
+
+    .movie-links {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .socials {
+        width: 200px;
+        padding:  10px 10px 10px 45px;
+        gap: 70px;
+    }
+
+   .side {
+    transform: translateX(-100%);
+    height: calc(100vh - 60px);
+    width: 45%;
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 1000;
+   } 
+
+   .head-2 a { 
+    padding: 35px 0px 35px 20px;
+   }
+
+   .menu-icon {
+    display: block;
+    position: fixed;
+   }
+
+   .menu-toggle:checked ~ .side {
+    transform: translateX(0);
+   }
+
+   .log-out {
+    margin-top: 20px;
+   }
+
+   .rectangle img {
+    width: 100%;
+   }
+
+   .below {
+    flex-direction: column;
+    width: 100%;
+   }
+
+   .below-1 {
+    width: 100%;
+   }
+
+   .top-m {
+    flex-direction: row;
+    text-wrap: wrap;
+    font-size: 13px;
+   }
+
+   .story {
+    width: 100%;
+    text-wrap: wrap;
+   }
+
+   .story p {
+    font-size: 18px;
+   }
+
+   .directors {
+    width: 100%;
+    font-weight: 30px;
+    line-height: 40px;
+    font-size: 18px;
+   }
+
+   .rate-award {
+    flex-direction: column;
+   }
+
+   .rate {
+    text-align: center;
+   }
+
+   .award p {
+    padding-left: 50px;
+   }
+
+   .award img {
+    padding-right: 15px;
+   }
+
+   .below-2 {
+    width: 100%;
+    padding: 5px;
+   }
+
+   .star-no {
+    justify-content: start;
+   }
+
+   .list-best {
+    margin-top: 11.5px;
+    line-height: 30px;
+   }
+
+   }
+   
