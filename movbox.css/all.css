@@ -715,5 +715,10 @@ width: 100%;
     justify-content: start;
    }
 
+   .list-best {
+    margin-top: 10px;
+    line-height: 30px;
+   }
+
    }
    
