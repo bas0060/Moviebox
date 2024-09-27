@@ -601,7 +601,7 @@ width: 100%;
     cursor: pointer;
     position: absolute;
     top: 10px;
-    left: 0px;
+    right: 10px;
     z-index: 1001;
     color: #333;
     background-color: #fff;
@@ -687,10 +687,6 @@ width: 100%;
        color: #fff;
     }
 
-    /* .wrapper {
-        padding-right: ;
-    } */
-
     .mov-card {
         flex-flow:row wrap;
         justify-content: end;
@@ -709,8 +705,6 @@ width: 100%;
     }
 
     .socials {
-        /* width: 200px; */
-        /* padding:  10px 10px 10px 48px; */
         justify-content: end;
     }
 
