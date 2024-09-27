@@ -692,15 +692,20 @@ width: 100%;
     } */
 
     .mov-card {
-        flex-flow: row wrap;
+        flex-flow:row wrap;
         justify-content: end;
-        width: 25%;
-        padding-left: 30px;
+        width: 90%;
+        padding: 10px  0px 10px 19px;
     }
 
     .movie-links {
         width: 100%;
        
+    }
+
+    .mov-cap img {
+        width: 100%;
+        height: 100%;
     }
 
     .socials {
