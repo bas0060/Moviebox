@@ -6,7 +6,7 @@
 #poster {
     background-image: url(../movbox-images/Poster.jpg);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,6 +34,14 @@
 
 .search {
     position: relative;
+}
+
+.search-2 {
+    display: none;
+}
+
+#navbar-2 {
+    display: none;
 }
 
 .search img {
@@ -167,11 +175,7 @@
 }
 
 .wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 82px;
-    width: fit-content;
-    
+    width: 100vw;  
 }
 
 .wrapper p {
@@ -180,6 +184,27 @@
 
 .wrapper h2 {
    width: 250px;
+}
+
+.head-sm {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fm {
+    padding-left: 82px;
+}
+
+.sm {
+    padding-right: 20px;
+}
+
+.mov-card {
+    display: flex;
+    flex-flow: row wrap;
+    width: fit-content;
+    padding-left: 82px;
 }
 
 .movie-links {
@@ -590,8 +615,45 @@ width: 100%;
 }
  
 @media screen and (max-width:768px){
+    * {
+        padding: 0;
+        margin: 0;
+    }
+   
+    .fm {
+       padding-left: 20px;
+
+    }
+
+    .sm {
+        padding-right: 0px;
+    }
+
+    .search-2 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .navcont {
+        width: 100vw;
+    }
+    
     #navbar {
-        flex-direction: column;
+        display: none;
+    }
+
+    #navbar-2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    #navbar-2 .sign-in {
+        padding-bottom: 11px;
+    }
+
+    #navbar-2 .sign-in p {
+        padding-bottom: 11px;
     }
 
     .name-icon {
@@ -599,24 +661,52 @@ width: 100%;
     }
 
     .search {
-        padding-bottom: 15px;
+       display: none;
     }
 
-    .wrapper {
-        padding-left: 20px;
-        margin: 0;
-        flex-flow: wrap;
+    .search-2 {
+       justify-content: start;
+       padding: 15px;
+    }
+
+    .search-2 img {
+        position: absolute;
+        top: 115px;
+        left: 260px;
+        transform: translate(-50% 0 0 -50% );
+        color: #fff;
+
+    }
+    
+    .search-2 input {
+       padding: 13px 20px ;
+       background: transparent;
+       width: 300px;
+       border-color: white;
+       border-radius: 6px;
+       color: #fff;
+    }
+
+    /* .wrapper {
+        padding-right: ;
+    } */
+
+    .mov-card {
+        flex-flow: row wrap;
+        justify-content: end;
+        width: 25%;
+        padding-left: 30px;
     }
 
     .movie-links {
         width: 100%;
-        flex-direction: row;
+       
     }
 
     .socials {
-        width: 200px;
-        padding:  10px 10px 10px 48px;
-        gap: 70px;
+        /* width: 200px; */
+        /* padding:  10px 10px 10px 48px; */
+        justify-content: end;
     }
 
    .side {
@@ -649,7 +739,12 @@ width: 100%;
 
    .quiz {
     font-size: 20px;
-}
+   }
+
+   .sp p {
+    text-wrap: nowrap;
+    font-size: 13px;
+   }
 
    .log-out {
     margin-top: 20px;
@@ -716,8 +811,22 @@ width: 100%;
    }
 
    .list-best {
-    margin-top: 10px;
+    margin-top: 0px;
     line-height: 30px;
+   }
+
+   .foot{
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+   }
+
+   .options {
+    padding-left: 30px;
+   }
+
+   div .wrapper {
+    padding: 0;
    }
 
    }
