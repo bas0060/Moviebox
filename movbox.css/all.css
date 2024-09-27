@@ -621,7 +621,7 @@ width: 100%;
 
    .side {
     transform: translateX(-100%);
-    height: calc(100vh - 30px);
+    height: calc(100vh - 0px);
     width: 50%;
     position: fixed;
     top: 0;
