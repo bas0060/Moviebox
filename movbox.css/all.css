@@ -453,13 +453,13 @@ width: 100%;
 .story p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 35px;
-    font-size: 21.5px;
+    font-size: 25.5px;
 }
 
 .directors {
     padding: 10px 0px 20px 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 33px;
+    line-height: 39px;
     font-size: 22px;
 }
 
@@ -500,7 +500,7 @@ width: 100%;
 
 .below-2 {
     width: 28.5%;
-    padding: 25px;
+    padding: 22px;
 }
 
 .star-no {
@@ -533,7 +533,7 @@ width: 100%;
     color: white;
     border: 1px solid transparent;
     border-radius: 15px;
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 
 .showT p {
@@ -583,7 +583,7 @@ width: 100%;
     color: white;
     width: 99%;
     position: absolute;
-    top: 158.5px;
+    top: 178px;
     border: 1px solid transparent;
     border-radius: 8px;
 }
